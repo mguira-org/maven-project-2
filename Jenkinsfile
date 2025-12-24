@@ -5,6 +5,7 @@ pipeline {
   }
   tools {
     maven 'localMaven'
+    git 'Default'
     jdk 'localJdk'
   }
   stages {
